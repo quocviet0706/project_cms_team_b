@@ -1261,9 +1261,10 @@ button.toggle {
 	flex-wrap: nowrap;
 	margin: 0 0 -0.8rem -0.8rem;
 }
-
-
-
+.search-form .search-field,
+.search-form .search-submit {
+	margin: 0 0 0.8rem 0.8rem;
+}
 .search-form label {
 	align-items: stretch;
 	display: flex;
@@ -1277,6 +1278,7 @@ button.toggle {
 	width: 40vh;
 	border-radius: 5px;
 	padding: 0.7% 1.7%;
+	width: 100%;
 }
 
 .search-form .search-submit {
@@ -2443,6 +2445,11 @@ body:not(.singular) main > article:first-of-type {
 h1.entry-title,
 h2.entry-title {
 	margin: 0;
+	font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 2.1em;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
 }
 
 .entry-title a {
@@ -3599,10 +3606,10 @@ figure.wp-block-table.is-style-stripes {
 }
 
 [class*="__inner-container"] > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
-	max-width: 48rem;
-	width: 100%;
 	font-size: 2.5rem;
 	color: white;
+	max-width: 58rem;
+	width: 100%;
 }
 
 .alignnone,
@@ -4825,12 +4832,16 @@ a.to-the-top > * {
 
 	h1,
 	.heading-size-1 {
-		font-size: 6.4rem;
 	}
-
 	h2,
 	.heading-size-2 {
 		font-size: 4.8rem;
+	}
+	h2,
+	.heading-size-2 {
+		font-size: 4.8rem;
+		margin-right: 60%;
+	}
 	}
 
 	h3,
@@ -5078,7 +5089,9 @@ a.to-the-top > * {
 	}
 
 	h2.entry-title {
-		font-size: 6.4rem;
+		text-transform: uppercase;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
 	}
 
 	/* SEARCH RESULTS */
@@ -5106,6 +5119,7 @@ a.to-the-top > * {
 	.entry-categories a {
 		font-size: 1.5rem;
 		margin: 1rem 0 0 2rem;
+		display: none;
 	}
 
 	.intro-text {
@@ -6138,7 +6152,8 @@ a.to-the-top > * {
 
 	h1,
 	.heading-size-1 {
-		font-size: 8.4rem;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
 	}
 
 	/* Helper Classes ------------------------ */
@@ -6487,7 +6502,6 @@ a.to-the-top > * {
 	}
 }
 
-
 /* Footer */
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 section {
@@ -6515,8 +6529,6 @@ section .section-title {
 	text-decoration: none !important;
 	background-color: transparent;
 	-webkit-text-decoration-skip: objects;
-	font-size: 1.7rem;
-	font-weight: normal;
 }
 
 .footer-nav-widget a::before{
@@ -6589,4 +6601,61 @@ section .section-title {
 }
 .dropdown{
 	padding: 6%;
+}
+/* css của content và detail */
+ .date{
+	margin-top: -50px;
+	text-align: center;
+	
+
+}
+.topnewsdate{
+	font-family: 'Prata', serif;
+    font-size: 3.1em;
+    line-height: 1em;
+	
+}
+.topnewsmonth{
+	text-transform: uppercase;
+    font-size: 0.9em;
+   
+
+}
+.contentdate {
+	border-right: 1px solid #666;
+	height: 150px;
+	margin-top: 30px;
+}
+.wp-block-image{
+	display: none;
+}
+.detailpage{
+	margin-top: -18px;
+    background: #f5ce31;
+    border-radius: 50%;
+    padding: 10px;
+	width: 100px;
+	margin-left: 100px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgb(0 0 0 / 20%);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 5px 0px rgb(0 0 0 / 20%);
+}
+.detailmonth{
+	border-top: 1px solid #666;
+}
+.detailyear{
+	margin-top: -39px;
+    float: left;
+    margin-left: 50px;
+
+}
+.entry-content p {
+	margin: 0 0 10px;
+	margin-left: 8%;
+	text-align: justify;
+    line-height: 1.7em;
+	
+	
+	
+	
 }

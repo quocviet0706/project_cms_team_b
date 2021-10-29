@@ -33,6 +33,7 @@
  */
 function twentytwenty_site_logo( $args = array(), $echo = true ) {
 	$logo       = get_custom_logo();
+
 	$site_title = get_bloginfo( 'name');
 	$contents   = '';
 	$classname  = '';
