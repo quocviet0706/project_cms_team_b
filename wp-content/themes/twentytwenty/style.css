@@ -6589,6 +6589,7 @@ section .section-title {
 		margin-bottom: 10px;
 	}
 }
+/* css của content và detail */
  .date{
 	margin-top: -50px;
 	text-align: center;
@@ -6601,9 +6602,6 @@ section .section-title {
     line-height: 1em;
 	
 }
-/* .thedate{
-	border-right: 1px solid #666;
-} */
 .topnewsmonth{
 	text-transform: uppercase;
     font-size: 0.9em;

@@ -16,9 +16,11 @@ if(!is_single()){
 }
 
 ?>
+<!-- Chia cột  -->
 <div class="container">
     <div class="row">
         <div class="col-md-2">
+            <!-- Kiểm tra nếu !is_single thì thực hiện  xuất ngày tháng -->
             <?php if(!is_single()) echo "<div class='contentdate'>"."<span class='topnewsdate date'>". get_the_date('d', $post->ID)."</span>","<br>" ."<span class='topnewsmonth date'>Tháng ".get_the_date('m', $post->ID)."</span>","</div>";
             ?>
         </div>
@@ -50,8 +52,8 @@ if ( ! is_search() ) {
                 the_content( __( 'Continue reading', 'twentytwenty' ) );
                
             }else{
+                //Nếu là is_single thì thực hiện xuất content và cắt chuỗi.
                 $post = get_post();
-              
                 echo substr($post->post_content, 0,100),"[...]";
             }
 
