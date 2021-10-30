@@ -6477,3 +6477,20 @@ a.to-the-top > * {
 		top: 0;
 	}
 }
+.topnewsdate{
+	font-family: 'Prata', serif;
+    font-size: 3.1em;
+    line-height: 1em;
+	
+}
+.topnewsmonth{
+	text-transform: uppercase;
+    font-size: 0.9em;
+   
+
+}
+.contentdate {
+	border-right: 1px solid #666;
+	height: 200px;
+	margin-top: 30px;
+}

@@ -34,8 +34,7 @@ global $wp_query;
                                     </div>
                                     <div class="col-12 col-lg-2">
                                         <?php
-                                        the_date();
-                                        echo "phuong";
+                                     echo "<div class='contentdate'>"."<span class='topnewsdate date'>". get_the_date('d', $post->ID)."</span>","<br>" ."<span class='topnewsmonth date'>Tháng ".get_the_date('m', $post->ID)."</span>","</div>";
                                         ?>
                                     </div>
                                     <div class="col-12 col-lg-6">
