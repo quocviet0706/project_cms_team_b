@@ -35,6 +35,7 @@ global $wp_query;
                                     <div class="col-12 col-lg-2">
                                         <?php
                                         the_date();
+                                        echo "phuong";
                                         ?>
                                     </div>
                                     <div class="col-12 col-lg-6">
@@ -44,8 +45,6 @@ global $wp_query;
                                                     <?php the_title(); ?>
                                                 </a>
                                             </h3>
-                                            <?php //the_post_custom_thumbnail( get_the_ID(), 'medium', [ 'class' => 'search-card-thumbnail' ] ); 
-                                            ?>
                                             <div class="search-card-content">
                                                 <?php echo the_excerpt() ?>
                                             </div>
