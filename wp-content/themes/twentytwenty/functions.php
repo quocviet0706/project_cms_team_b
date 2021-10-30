@@ -804,3 +804,6 @@ function twentytwenty_get_elements_array() {
      */
     return apply_filters( 'twentytwenty_get_elements_array', $elements );
 }
+//Connect custom.css
+wp_register_style("custom", get_template_directory_uri() . "./assets/css/custom.css", '', '1.0.0');
+wp_enqueue_style('custom');
