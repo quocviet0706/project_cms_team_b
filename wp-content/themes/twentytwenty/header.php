@@ -25,7 +25,8 @@
     </script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="profile" href="https://gmpg.org/xfn/11">
-    <link rel="stylesheet" id="custom-css" href="http://domain.com/wp-content/themes/theme/css/custom.css?ver=1.0.0" type="text/css" media="all">
+    <link rel="stylesheet" id="custom-css" href="http://domain.com/wp-content/themes/theme/css/custom.css?ver=1.0.0" 
+    type="text/css" media="all">
 
     <?php wp_head(); ?>
 

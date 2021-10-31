@@ -26,3 +26,7 @@
 .cart-post-date {
   margin: 50% auto;
 }
+.search-card--custom {
+  border-left: 1px solid #000;
+  padding-left: 30px;
+}
