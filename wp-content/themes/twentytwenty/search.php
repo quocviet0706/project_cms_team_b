@@ -82,7 +82,6 @@ global $wp_query;
                                         </div>
                                     </div>
                                     <div class="col-12 col-lg-6">
-                                        <!-- Posts content -->
                                         <div class="search-card-container search-card--custom">
                                             <!-- Post title -->
                                             <h3 class="card-title">
