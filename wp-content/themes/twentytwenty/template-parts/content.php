@@ -10,6 +10,7 @@
  * @subpackage Twenty_Twenty
  * @since Twenty Twenty 1.0
  */
+//create class danh sach and bool is_single
 $class = '';
 if(!is_single()){
     $class='danh-sach';
@@ -38,14 +39,13 @@ if ( ! is_search() ) {
 ?>
 
                 <div
-                    class="post-inner <?php echo is_page_template( 'templates/template-full-width.php' ) ? '' : 'thin'; ?> ">
+                    class="post-inner pt-3 <?php echo is_page_template( 'templates/template-full-width.php' ) ? '' : 'thin'; ?> ">
 
                     <div class="entry-content">
 
                         <?php
         if ( is_search() || ! is_singular() && 'summary' === get_theme_mod( 'blog_content', 'full' ) ) {
             the_excerpt();
-            echo "cheo";
         } else {
             if(is_single()){
             
@@ -54,6 +54,7 @@ if ( ! is_search() ) {
             }else{
                 //Nếu là is_single thì thực hiện xuất content và cắt chuỗi.
                 $post = get_post();
+                //subtring content
                 echo substr($post->post_content, 0,100),"[...]";
             }
 

@@ -42,18 +42,20 @@ if ( is_singular() ) {
 
 		if ( is_singular() ) {
 			?>
+			<!-- create row md the get date  -->
 			<div class="row">
 				<div class="col-md-8">
 				<?php the_title( '<h1 class="entry-title">','</h1>');?>
 				</div>
 				<div class="col-md-4">
+					<!-- print the get date -->
 					<?php echo "<div class='detailpage'>"."<span class='detaildate'>". get_the_date('d', $post->ID)."</span>","<br>" ."<span class='detailmonth '>".get_the_date('m', $post->ID)."</span>"."<span class='detailyear'>'".get_the_date('y', $post->ID)."</span>","</div>"; ?>
 				</div>
 			</div>
-			<!-- the_title( '<h1 class="entry-title">','</h1>');
 			<?php
 		} else {
-			the_title( '<h2 class="entry-title heading-size-1"><a style="color: #428bca;" href="' . esc_url( get_permalink() ) . '">', '</a></h2>' );
+			//tittle repair
+			the_title( '<h2 class="entry-title heading-size-1"><a style="color: #428bca;margin:0;" href="' . esc_url( get_permalink() ) . '">', '</a></h2>' );
 		}
 		$intro_text_width = '';
 		if ( is_singular() ) {
