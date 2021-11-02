@@ -1274,7 +1274,7 @@ button.toggle {
 }
 
 .search-form .search-field {
-	margin-right: 55vh;
+	margin-right: 42vh;
 	width: 40vh;
 	border-radius: 5px;
 	padding: 0.7% 1.7%;
@@ -6358,6 +6358,13 @@ a.to-the-top > * {
 }
 
 @media ( min-width: 1280px ) {
+
+	.search-form .search-field {
+		margin-right: 20vh;
+		width: 30vh;
+		border-radius: 5px;
+		padding: 0.7% 1.7%;
+	}
 
 	/* Blocks -------------------------------- */
 
