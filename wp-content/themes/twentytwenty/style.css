@@ -5673,7 +5673,7 @@ a.to-the-top > * {
 		display: none;
 	}
 
-}
+
 
 @media (min-width: 782px) {
 
@@ -6660,9 +6660,12 @@ section .section-title {
 	margin: 0 0 10px;
 	margin-left: 8%;
 	text-align: justify;
-    line-height: 1.7em;
-	
-	
-	
-	
+    line-height: 1.7em;	
+}
+
+.submit-btn-config{
+	float: right !important;
+	background: #007bff !important;
+	padding: 14px  12px !important;
+	border-radius: 6px !important;
 }

@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Header file for the Twenty Twenty WordPress default theme.
  *

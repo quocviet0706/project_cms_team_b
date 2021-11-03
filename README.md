@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # training-cms
 =======
 <<<<<<< HEAD
@@ -17,12 +18,16 @@
 * Wamp/Xampp/Apps/LAMP/Vertrigo: intergrated: (PHP + MySQL + Webserver) : All in one
 =======
 >>>>>>> origin/Viet-model2-Content
+=======
+# training-cms
+>>>>>>> Tuan-model7-PrevPost
 * Repository: https://github.com/tailieuweb/training-cms
 
 ## System requirements
 * PHP: 7x/8x => (suggest: 8x)
 * MySQL: 5.6/5.7, MariaDB: 10.x
 * Apache: 2.4
+<<<<<<< HEAD
 * Wamp/Xampp/Amps/Vertrigo
 <<<<<<< HEAD
 =======
@@ -40,3 +45,6 @@ Thực hiện phân công việc cho tường thành viên trong nhóm
 # training-cms
 >>>>>>> origin/1-wordpress-581-202109/2-groups/1-B/2-28-Phuong
 >>>>>>> origin/Viet-model2-Content
+=======
+* Wamp/Xampp/Amps/Vertrigo
+>>>>>>> Tuan-model7-PrevPost
