@@ -48,7 +48,7 @@ if ( is_singular() ) {
 				<?php the_title( '<h1 class="entry-title">','</h1>');?>
 				</div>
 				<div class="col-md-2">
-					<!-- print the get date -->
+					<!-- print the get date in detail page -->
 					<?php echo "<div class='detailpage'>"."<span class='detaildate'>". get_the_date('d', $post->ID)."</span>","<br>" ."<span class='detailmonth '>".get_the_date('m', $post->ID)."</span>"."<span class='detailyear'>'".get_the_date('y', $post->ID)."</span>","</div>"; ?>
 				</div>
 			</div>
