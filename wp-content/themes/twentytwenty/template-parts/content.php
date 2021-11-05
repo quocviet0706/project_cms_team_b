@@ -54,8 +54,8 @@ if ( ! is_search() ) {
             }else{
                 //Nếu là is_single thì thực hiện xuất content và cắt chuỗi.
                 $post = get_post();
-                //subtring content
-                echo substr($post->post_content, 0,100),"[...]";
+                //subtring content thực hiện cắt chuỗi
+                echo substr($post->post_content, 0,150),"[...]";
             }
 
         }
