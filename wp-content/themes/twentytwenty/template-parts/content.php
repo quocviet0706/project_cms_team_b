@@ -17,7 +17,7 @@ if(!is_single()){
 }
 
 ?>
-<!-- Chia cột  -->
+<!-- Chia cột container  -->
 <div class="container">
     <div class="row">
         <div class="col-md-2">
@@ -37,7 +37,6 @@ if ( ! is_search() ) {
 }
 
 ?>
-
                 <div
                     class="post-inner pt-3 <?php echo is_page_template( 'templates/template-full-width.php' ) ? '' : 'thin'; ?> ">
 
@@ -54,8 +53,8 @@ if ( ! is_search() ) {
             }else{
                 //Nếu là is_single thì thực hiện xuất content và cắt chuỗi.
                 $post = get_post();
-                //subtring content
-                echo substr($post->post_content, 0,100),"[...]";
+                //subtring content thực hiện cắt chuỗi
+                echo substr($post->post_content, 0,150),"[...]";
             }
 
         }

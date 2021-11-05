@@ -44,11 +44,11 @@ if ( is_singular() ) {
 			?>
 			<!-- create row md the get date  -->
 			<div class="row">
-				<div class="col-md-8">
+				<div class="col-md-10">
 				<?php the_title( '<h1 class="entry-title">','</h1>');?>
 				</div>
-				<div class="col-md-4">
-					<!-- print the get date -->
+				<div class="col-md-2">
+					<!-- print the get date in detail page -->
 					<?php echo "<div class='detailpage'>"."<span class='detaildate'>". get_the_date('d', $post->ID)."</span>","<br>" ."<span class='detailmonth '>".get_the_date('m', $post->ID)."</span>"."<span class='detailyear'>'".get_the_date('y', $post->ID)."</span>","</div>"; ?>
 				</div>
 			</div>
